@@ -1,6 +1,6 @@
 ## Projeto de LM
 
-### Site da Liga Pessoense de Basquetebol
+### Liga Pessoense de Basquetebol
 
 ### Descrição do Projeto:
 
@@ -17,4 +17,9 @@ Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disc
 4. A seção da esquerda conterá a classificação da fase inicial da liga.
 5. Haverá uma seção com videos dos jogos passados e com as mídias sociais.
 
+### Inspirações
 
+#### NBB
+
+Liga Nacional de Basquete
+* https://lnb.com.br/
