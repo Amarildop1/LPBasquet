@@ -1,0 +1,193 @@
+/*
+  Projeto Final de LM - 2019.2
+  Equipe:
+          Amarildo - 20192370028
+          Micael - 20192370029
+  Desenvolvimento de um site para a Liga Pessoense de Basquete.
+*/
+
+
+/* CONFIG GERAL */
+body{
+  /*background: rgb(34, 163, 223);*/
+}
+
+
+/* PRIMEIRO BREAKPOINT */
+@media screen and (min-width: 320px){
+
+  #main .mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 1px;
+    background: rgb(34, 163, 223);
+  }
+  #main .mainHeader p{
+    text-align: center;
+  }
+  #main .mainHeader .menu-img{
+    width: 50px;
+  }
+  #main .mainHeader .logo-img{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+  }
+  #main .menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 2px;
+  }
+  #main .menu ul li{
+    list-style-type: none;
+  }
+  #main .menu ul li a{
+    text-decoration: none;
+  }
+
+
+  /* SEÇÃO PRÓXIMOS JOGOS */
+    #proximosJogos{
+      text-align: center;
+      border: 1px solid black;
+      margin: 5px 1px 1px;
+      padding: 2px;
+      background: rgb(34, 163, 223);
+    }
+    #proximosJogos .proxJogos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+    }
+    .proxJogos img{
+      width: 100px;
+    }
+
+  /* SEÇÃO ÚLTIMOS JOGOS */
+  #ultimosJogos{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #ultimosJogos .ultJogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .ultJogos img{
+    width: 100px;
+  }
+
+
+  /* SEÇÃO VÍDEOS */
+  #videos{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+
+
+  /* SEÇÃO CLASSIFICAÇÃO */
+  #classificacao{
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #classificacao h1{
+    text-align: center;
+  }
+
+
+  /* SEÇÃO REDES SOCIAIS*/
+  #social{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  .redesSociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  /* SEÇÃO LIGAÇÃO EXTERNA - LINKS */
+  #ligacaoExterna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+
+
+  /* RODAPÉ */
+  .rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+
+}/*FIM DO PRIMEIRO BREAKPOINT*/
+
+
+/* SEGUNDO BREAKPOINT */
+@media screen and (min-width: 768px){
+
+  #main .mainHeader{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+    margin: 1px;
+    background: rgb(34, 163, 223);
+  }
+  #main .mainHeader p{
+    text-align: center;
+  }
+  #main .mainHeader .menu-img{
+    width: 80px;
+  }
+  #main .mainHeader .logo-img{
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    padding: 2px;
+  }
+  #main .menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 2px;
+  }
+  #main .menu ul li{
+    list-style-type: none;
+  }
+  #main .menu ul li a{
+    text-decoration: none;
+  }
+
+}
