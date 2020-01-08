@@ -10,6 +10,11 @@
 /* CONFIG GERAL */
 body{
   /*background: rgb(34, 163, 223);*/
+  background-image: url(img/background.png);
+  background-attachment: fixed;
+}
+body a{
+  text-decoration: none;
 }
 
 
@@ -37,6 +42,7 @@ body{
     margin: 2px;
     padding: 2px;
   }
+  /*
   #main .menu ul{
     display: flex;
     flex-direction: row;
@@ -49,6 +55,10 @@ body{
   #main .menu ul li a{
     text-decoration: none;
   }
+  */
+  #main nav{
+    display: none;
+  }
 
 
   /* SEÇÃO PRÓXIMOS JOGOS */
@@ -57,7 +67,7 @@ body{
       border: 1px solid black;
       margin: 5px 1px 1px;
       padding: 2px;
-      background: rgb(34, 163, 223);
+      background: rgba(34, 163, 223, .8);
     }
     #proximosJogos .proxJogos{
       display: flex;
@@ -78,7 +88,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #ultimosJogos .ultJogos{
     display: flex;
@@ -98,7 +108,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
 
 
@@ -107,7 +117,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #classificacao h1{
     text-align: center;
@@ -120,7 +130,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   .redesSociais{
     display: flex;
@@ -138,9 +148,9 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
-
+  
 
   /* RODAPÉ */
   .rodape{
@@ -156,8 +166,9 @@ body{
 }/* FIM DO PRIMEIRO BREAKPOINT */
 
 
+
 /* SEGUNDO BREAKPOINT */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 600px){
   #main h1{
     font-size: 1.3rem;
   }
@@ -203,7 +214,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #proximosJogos .proxJogos{
     display: flex;
@@ -227,7 +238,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #ultimosJogos .ultJogos{
     display: flex;
@@ -242,6 +253,9 @@ body{
   #ultimosJogos h1{
     font-size: 1.3rem;
   }
+  #ultimosJogos .ultJogos .ultimoPlacar p{
+    font-size: 1.8rem;
+  }
 
 
   /* SEÇÃO VÍDEOS */
@@ -250,7 +264,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #videos .videoYoutube iframe{
     width: 450px;
@@ -263,7 +277,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   #classificacao h1{
     text-align: center;
@@ -276,7 +290,7 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
   .redesSociais{
     display: flex;
@@ -294,9 +308,9 @@ body{
     border: 1px solid black;
     margin: 5px 1px 1px;
     padding: 2px;
-    background: rgb(34, 163, 223);
+    background: rgba(34, 163, 223, .8);
   }
-  
+
 
   /* RODAPÉ */
   .rodape{
@@ -315,3 +329,183 @@ body{
 
 
 }/* FIM DO SEGUNDO BREAKPOINT */
+
+
+
+
+/* TERCEIRO BREAKPOINT */
+@media screen and (min-width: 750px){
+
+  .mainHeader{
+    grid-area: header;
+  }
+
+
+  #main .mainHeader .menu-img, #main .mainHeader p{
+    display: none;
+  }
+  
+  #main .mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #main nav{
+    display: unset;
+  }
+
+  #main .menu{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main .menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #main .menu ul li{
+    list-style-type: none;
+    margin: 10px;
+  }
+  #main .menu ul li a{
+    text-decoration: none;
+  }
+
+
+
+  #proximosJogos{
+    grid-area: proximosJogos;  
+
+  }
+  #proximosJogos img{
+    width: 200px;
+  }
+
+  #ultimosJogos{
+    grid-area: ultimosJogos;
+  }
+
+  #videos{
+    grid-area: videos;
+  }
+  #videos .videoYoutube iframe{
+    width: 350px;
+    margin: 5px;
+  }
+
+  #classificacao{
+    grid-area: classificacao;
+  }
+
+  #social{
+    grid-area: social;
+  }
+  .redesSociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #ligacaoExterna{
+    grid-area: ligacaoExterna;
+  }
+
+  .rodape{
+    grid-area: rodape;
+  }
+
+  #main{
+    display: grid;
+    grid-template-columns: 20wh 1fr;
+    grid-template-rows: 20vh 85vh 80vh 80vh 15vh 10vh;
+    grid-template-areas: "header header" 
+                         "proximosJogos proximosJogos" 
+                         "classificacao ultimosJogos"
+                         "social videos"
+                         "ligacaoExterna ligacaoExterna"
+                         "rodape rodape"
+  }
+
+
+
+}/* FIM DO TERCEIRO BREAKPOINT */
+
+
+
+
+
+/* QUARTO BREAKPOINT */
+@media screen and (min-width: 1200px){
+
+  .mainHeader{
+    grid-area: header;
+  }
+
+  #main .mainHeader .logo-img{
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+
+  #proximosJogos{
+    grid-area: proximosJogos;  
+  }
+
+
+   #ultimosJogos{
+    grid-area: ultimosJogos;
+  }
+  #ultimosJogos .ultJogos .ultimoPlacar p{
+    font-size: 2.2rem;
+  }
+
+  #videos{
+    grid-area: videos;
+
+  }
+  #videos .videoYoutube iframe{
+    width: 400px;
+    padding: 5px;
+  }
+  #classificacao{
+    grid-area: classificacao;
+  }
+  #social{
+    grid-area: social;
+  }
+  .redesSociais{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #ligacaoExterna{
+    grid-area: ligacaoExterna;
+  }
+
+  .rodape{
+    grid-area: rodape;
+    padding-bottom: 5px;
+  }
+
+  #main{
+    display: grid;
+    grid-gap: .2%;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 20vh 80vh 70vh 15vh 10vh;
+    grid-template-areas: "header header header" 
+                         "classificacao proximosJogos videos" 
+                         "ultimosJogos ultimosJogos social"
+                         "ligacaoExterna ligacaoExterna ligacaoExterna"
+                         "rodape rodape rodape"
+  }
+
+
+}/* FIM DO QUARTO BREAKPOINT */
+
