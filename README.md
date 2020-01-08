@@ -10,16 +10,23 @@ Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disc
 
 1. Layout simples
 2. Menu com 5 (cinco) itens de navegação.
-3. A página inicial terá 3 seções com slides.
+3. A página inicial terá as seguintes seções.
 	* Próximos Jogos
-	* Placar dos jogos do último final de semana
-	* Imagens dos últimos jogos
-4. A seção da esquerda conterá a classificação da fase inicial da liga.
-5. Haverá uma seção com videos dos jogos passados e com as mídias sociais.
+	* Placar dos últimos jogos
+	* Videos
+	* Classificação da fase inicial
+	* Redes sociais
+	* Links externos
 
-### Inspirações
+### Inspiração:
 
 #### NBB
 
 Liga Nacional de Basquete
 * https://lnb.com.br/
+
+
+#### Contato
+
+	@amarildop1
+	@micaelps
