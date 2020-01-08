@@ -26,6 +26,7 @@ body{
   }
   #main .mainHeader p{
     text-align: center;
+    align-self: center;
   }
   #main .mainHeader .menu-img{
     width: 50px;
@@ -67,7 +68,9 @@ body{
     }
     .proxJogos img{
       width: 100px;
+      border-radius: 50%;
     }
+
 
   /* SEÇÃO ÚLTIMOS JOGOS */
   #ultimosJogos{
@@ -150,11 +153,14 @@ body{
     background: rgb(34, 163, 223);
   }
 
-}/*FIM DO PRIMEIRO BREAKPOINT*/
+}/* FIM DO PRIMEIRO BREAKPOINT */
 
 
 /* SEGUNDO BREAKPOINT */
 @media screen and (min-width: 768px){
+  #main h1{
+    font-size: 1.3rem;
+  }
 
   #main .mainHeader{
     display: flex;
@@ -165,18 +171,17 @@ body{
     margin: 1px;
     background: rgb(34, 163, 223);
   }
-  #main .mainHeader p{
-    text-align: center;
-  }
   #main .mainHeader .menu-img{
-    width: 80px;
+    width: 90px;
   }
   #main .mainHeader .logo-img{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 2px;
     padding: 2px;
   }
+
+  /*
   #main .menu ul{
     display: flex;
     flex-direction: row;
@@ -189,5 +194,124 @@ body{
   #main .menu ul li a{
     text-decoration: none;
   }
+  */
 
-}
+  
+  /* SEÇÃO PRÓXIMOS JOGOS */
+  #proximosJogos{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #proximosJogos .proxJogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .proxJogos img{
+    width: 200px;
+  }
+
+  #proximosJogos h1{
+    font-size: 1.3rem;
+  }
+
+      
+  /* SEÇÃO ÚLTIMOS JOGOS */
+  #ultimosJogos{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #ultimosJogos .ultJogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .ultJogos img{
+    width: 200px;
+  }
+  #ultimosJogos h1{
+    font-size: 1.3rem;
+  }
+
+
+  /* SEÇÃO VÍDEOS */
+  #videos{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #videos .videoYoutube iframe{
+    width: 450px;
+    margin-bottom: 5px;
+  }
+
+
+  /* SEÇÃO CLASSIFICAÇÃO */
+  #classificacao{
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  #classificacao h1{
+    text-align: center;
+  }
+
+
+  /* SEÇÃO REDES SOCIAIS*/
+  #social{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  .redesSociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  /* SEÇÃO LIGAÇÃO EXTERNA - LINKS */
+  #ligacaoExterna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  
+
+  /* RODAPÉ */
+  .rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 5px 1px 1px;
+    padding: 2px;
+    background: rgb(34, 163, 223);
+  }
+  .rodape p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+}/* FIM DO SEGUNDO BREAKPOINT */
