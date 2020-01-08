@@ -37,25 +37,12 @@ body a{
     width: 50px;
   }
   #main .mainHeader .logo-img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 2px;
     padding: 2px;
   }
-  /*
-  #main .menu ul{
-    display: flex;
-    flex-direction: row;
-    margin: 2px;
-    padding: 2px;
-  }
-  #main .menu ul li{
-    list-style-type: none;
-  }
-  #main .menu ul li a{
-    text-decoration: none;
-  }
-  */
+
   #main nav{
     display: none;
   }
@@ -136,6 +123,21 @@ body a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 15px;
+  }
+
+  .redesSociais a{
+    font-size: 2rem;
+  }
+
+  .redesSociais a .fa-facebook{
+    color: rgb(4, 51, 153);
+  }
+  .redesSociais a .fa-youtube{
+    color:rgb(189, 18, 3);
+  }
+  .redesSociais a .fa-instagram{
+    color:rgb(177, 6, 74);
   }
 
 
@@ -161,6 +163,11 @@ body a{
     margin: 5px 1px 1px;
     padding: 2px;
     background: rgb(34, 163, 223);
+  }
+
+  .rodape .fa-github{
+    font-size: 1.2rem;
+    color: black;
   }
 
 }/* FIM DO PRIMEIRO BREAKPOINT */
@@ -430,10 +437,7 @@ body a{
                          "rodape rodape"
   }
 
-
-
 }/* FIM DO TERCEIRO BREAKPOINT */
-
 
 
 
