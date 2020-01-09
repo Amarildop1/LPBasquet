@@ -87,11 +87,19 @@ body a{
 
   /* SEÇÃO CLASSIFICAÇÃO */
   #classificacao{
-
+                   
   }
   #classificacao h1{
     text-align: center;
   }
+ul{
+  list-style-type: none;
+}
+ 
+.classifGeral{
+  display: flex;
+  justify-content: center;
+}
 
 
   /* SEÇÃO VÍDEOS */
@@ -315,11 +323,23 @@ body a{
 
   /* SEÇÃO CLASSIFICAÇÃO */
   #classificacao{
-    grid-area: classificacao;
+  
   }
   #classificacao .classifGeral{
     line-height: 2rem;
   }
+
+  ul{
+    text-decoration-style: none;
+    margin: 0;
+  }
+  
+  .classifGeral{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+ 
 
   /* SEÇÃO VÍDEOS */
   #videos{
