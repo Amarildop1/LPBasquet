@@ -32,7 +32,7 @@ body a{
   /* CABEÇALHO */
   #main .mainHeader{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
   }
   #main .mainHeader p{
@@ -41,6 +41,7 @@ body a{
   }
   #main .mainHeader .menu-img{
     width: 50px;
+   
   }
   #main .mainHeader .logo-img{
     width: 60px;
@@ -48,10 +49,52 @@ body a{
     margin: 2px;
     padding: 2px;
   }
-  #main nav{
+
+ 
+
+  nav{
+    background: rgb(0, 0, 0, .5);
+    right: 1px;
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    transition: 2s all;
+    z-index: 3;
     display: none;
+    flex-direction: column;
   }
 
+  nav ul{
+    
+    display: block;
+    position: fixed;
+    transition: 1s all;
+    z-index: 3;
+    background-color:rgb(34, 163, 223);
+   
+  }
+ nav ul li{
+  margin: 20px;
+  border-bottom: black 1px solid;
+  height: 100%;
+  padding: 5px;
+  display: block;
+ }
+
+ nav ul a{
+  color: black;
+  font-weight: bold;
+  display: block;
+ }
+
+input{
+  display: none;
+}
+
+ input[type="checkbox"]:checked~nav{
+  display: unset;
+  transition: 2s all;
+ }
 
   /* SEÇÃO PRÓXIMOS JOGOS */
     #proximosJogos{
@@ -164,6 +207,7 @@ ul{
 
 
 
+
 /* ***** SEGUNDO BREAKPOINT ***** */
 @media screen and (min-width: 600px){
 
@@ -248,7 +292,7 @@ ul{
 
 /* ***** TERCEIRO BREAKPOINT ***** */
 @media screen and (min-width: 750px){
-
+ 
   /* CABEÇALHO */
   .mainHeader{
     grid-area: header;
@@ -260,7 +304,58 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
+
+
+  nav{
+    background: unset;
+    right: unset ;
+    height: unset;
+    width: unset;
+    position: unset;
+    transition: unset;
+    z-index: unset;
+    display: unset;
+    flex-direction: unset;
+  }
+
+  nav ul{
+    display: unset;
+    position: unset;
+    transition: unset;
+    background-color:unset;
+   
+  }
+ nav ul li{
+  margin-bottom: unset;
+  border-bottom: unset;
+  height: unset;
+  padding: unset;
+ }
+
+ nav ul a{
+  color: black;
+  font-weight: bold;
+ }
+input{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* MENU */
   #main nav{
@@ -333,7 +428,7 @@ ul{
     text-decoration-style: none;
     margin: 0;
   }
-  
+
   .classifGeral{
   display: flex;
   flex-direction: column;
