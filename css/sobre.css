@@ -1,7 +1,55 @@
-img{
-    width: 250px;
+@import url("menu.css");
+@import url("footer.css");
+
+/*
+  Projeto Final de LM - 2019.2
+  Equipe:
+          Amarildo - 20192370028
+          Micael - 20192370029
+  Desenvolvimento de um site para a Liga Pessoense de Basquete.
+*/
+
+.parte1 img{
+  width: 20%;
+  float:right;
 }
 
-h2{
-    text-align: center;
+.parte2 img{
+  width: 20%;
+  float: left;
 }
+
+.recuo { text-indent:4em  }
+
+.partes{
+  padding: 5%;
+  text-align: justify;
+  margin: 2.5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background: rgba(34, 163, 223, .8);
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#main .mainHeader .menu-img{
+  width: 50px;
+}
+
+
+@media screen and (min-width: 1000px){
+  .partes{
+    line-height: 3rem;
+}
+    
+    
+      }
+    
+    
+ 
+    
