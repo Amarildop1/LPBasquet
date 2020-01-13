@@ -7,7 +7,14 @@
           Micael - 20192370029
   Desenvolvimento de um site para a Liga Pessoense de Basquete.
 */
-
+/*
+  body{
+    font-family: 'Lato', 'Ubuntu', sans-serif;
+  }
+  body h1{
+    font-family: 'Ubuntu', sans-serif;
+  }
+*/
 
 /* SEÇÃO PRÓXIMOS JOGOS */
 #proximosJogos{
@@ -45,8 +52,21 @@
 
 
 /* SEÇÃO CLASSIFICAÇÃO */
-
 #classificacao h1{text-align: center}
+
+@media screen and (max-width: 750px){
+  #classificacao .classifGeral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.6rem;
+  }
+  
+  ul.listaParte1,  ul.listaParte2{
+    padding: 10px;
+  }
+
+}
 
 ul{list-style-type: none}
 
@@ -73,7 +93,7 @@ ul{list-style-type: none}
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .redesSociais a{font-size: 2rem;}

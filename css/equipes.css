@@ -8,12 +8,19 @@
   Desenvolvimento de um site para a Liga Pessoense de Basquete.
 */
 
+body{
+  background-image: url("../esperando.jpg");
+  background-attachment: fixed;
+  font-size: 1rem;
+}
+
+
 header{
-   box-shadow: 2px 2px 5px black;
-    margin: 5px 1px 1px;
-    padding: 2px;
-    background: rgba(34, 163, 223, .8);
-    border-radius: 2%;
+  box-shadow: 2px 2px 5px black;
+  margin: 5px 1px 1px;
+  padding: 2px;
+  background: rgba(34, 163, 223, .8);
+  border-radius: 2%;
 }
 
 .equipe img{
@@ -49,12 +56,14 @@ li{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-radius: 2%;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 2.2rem;
   text-align: center;
 }
+
 
 
 /* ***** PRIMEIRO BREAKING POINT***** */
@@ -69,7 +78,7 @@ h1 {
 /* ***** SEGUNDO BREAKPOINT ***** */
 @media screen and (min-width: 1000px){
   .equipe ul{
-    font-size: 180%;
+    font-size: 140%;
   }
 
 }

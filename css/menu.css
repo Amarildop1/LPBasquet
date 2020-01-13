@@ -1,11 +1,18 @@
 ﻿/* Folha de estilo responsavel pela integridade do menu e do footer*/
 
 body{
-    background-image: url("../img/background.png");
-    background-attachment: fixed;
-  }
-  
+  background-image: url("../img/background.png");
+  background-attachment: fixed;
+}
+
 body a{text-decoration: none}
+
+body{
+  font-family: 'Lato', 'Ubuntu', sans-serif;
+}
+body h1{
+  font-family: 'Ubuntu', sans-serif;
+}
 
 
 .rodape a{
@@ -39,8 +46,16 @@ body a{text-decoration: none}
   text-align: center;
   align-self: center;
 }
+
+#main .mainHeader>p{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
   
-#main .mainHeader .menu-img{width: 50px}
+#main .mainHeader .menu-img{
+  margin-top:8px;
+  width: 50px;
+}
   
 #main .mainHeader .logo-img{
   width: 60px;
