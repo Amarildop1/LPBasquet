@@ -1,6 +1,5 @@
 @import url("menu.css");
 @import url("footer.css");
-
 /*
   Projeto Final de LM - 2019.2
   Equipe:
@@ -45,11 +44,8 @@ h1 {
 @media screen and (min-width: 1000px){
   .partes{
     line-height: 3rem;
-}
+  } 
     
-    
-      }
-    
-    
- 
+}   
+
     

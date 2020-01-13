@@ -1,6 +1,5 @@
 @import url("menu.css");
 @import url("footer.css");
-
 /*
   Projeto Final de LM - 2019.2
   Equipe:
@@ -19,7 +18,7 @@ header{
 
 .equipe img{
   width: 30%;
-  }
+}
 
 .equipes{
   margin: 2.5%;
@@ -34,8 +33,8 @@ header{
   text-decoration: none;
   list-style-type: none;
   padding: 0;
-  
 }
+
 span{
   font-weight: bolder;
 }
@@ -58,23 +57,21 @@ h1 {
 }
 
 
-  /* ***** PRIMEIRO BREAKING POINT***** */
-  @media screen and (min-width: 600px){
+/* ***** PRIMEIRO BREAKING POINT***** */
+@media screen and (min-width: 600px){
 
-    .equipes{
-    grid-template-columns: repeat(2, 1fr);
-    
-    }
-
+  .equipes{
+    grid-template-columns: repeat(2, 1fr);   
   }
 
-  /* ***** SEGUNDO BREAKPOINT ***** */
-  @media screen and (min-width: 1000px){
-    .equipe ul{
-      font-size: 180%;
-  
-  
-    }
+}
+
+/* ***** SEGUNDO BREAKPOINT ***** */
+@media screen and (min-width: 1000px){
+  .equipe ul{
+    font-size: 180%;
   }
+
+}
   
   

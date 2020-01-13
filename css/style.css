@@ -43,6 +43,7 @@
 
 .ultJogos img{width: 100px;}
 
+
 /* SEÇÃO CLASSIFICAÇÃO */
 
 #classificacao h1{text-align: center}
@@ -92,11 +93,9 @@ ul{list-style-type: none}
   text-align: center;
 }
 
-/* ***** FIM DO PRIMEIRO BREAKPOINT ***** */
 
 
-
-/* ***** SEGUNDO BREAKPOINT ***** */
+/* ***** PRIMEIRO BREAKPOINT ***** */
 @media screen and (min-width: 600px){
 
   
@@ -116,7 +115,6 @@ ul{list-style-type: none}
     font-size: 1.8rem;
   }
   
-
 
   /* SEÇÃO VÍDEOS */
   #videos .videoYoutube iframe{
@@ -138,13 +136,11 @@ ul{list-style-type: none}
   }
 
 }
-
-
-/* ***** FIM DO SEGUNDO BREAKPOINT ***** */
+/* ***** FIM DO PRIMEIRO BREAKPOINT ***** */
 
 
 
-/* ***** TERCEIRO BREAKPOINT ***** */
+/* ***** SEGUNDO BREAKPOINT ***** */
 @media screen and (min-width: 750px){
  
 
@@ -235,11 +231,11 @@ ul{list-style-type: none}
   }
 
 }
-/* ***** FIM DO TERCEIRO BREAKPOINT ***** */
+/* ***** FIM DO SEGUNDO BREAKPOINT ***** */
 
 
 
-/* ***** QUARTO BREAKPOINT ***** */
+/* ***** TERCEIRO BREAKPOINT ***** */
 @media screen and (min-width: 1200px){
 
   /* CABEÇALHO */
@@ -310,7 +306,5 @@ ul{list-style-type: none}
 
 }
 
-
-
-/* ***** FIM DO QUARTO BREAKPOINT ***** */
+/* ***** FIM DO TERCEIRO BREAKPOINT ***** */
 

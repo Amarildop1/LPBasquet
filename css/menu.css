@@ -1,120 +1,112 @@
 ﻿/* Folha de estilo responsavel pela integridade do menu e do footer*/
 
 body{
-    background-image: url("/img/background.png");
+    background-image: url("../img/background.png");
     background-attachment: fixed;
   }
   
-
-  body a{text-decoration: none}
-
-
-  .rodape a{
-    color: black;
-  }
-
-  .rodape{
-    padding-bottom: 5px;
-    font-size: 1.1rem;
-    font-weight: 700;
-  }
+body a{text-decoration: none}
 
 
-  #main .mainHeader, #proximosJogos, #ultimosJogos, #classificacao, #videos, #social, #ligacaoExterna, .rodape{
-    box-shadow: 2px 2px 5px black;
-    margin: 5px 1px 1px;
-    padding: 2px;
-    background: rgba(34, 163, 223, .8);
-    border-radius: 2%;
-  } 
+.rodape a{
+  color: black;
+}
+
+.rodape{
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+
+#main .mainHeader, #proximosJogos, #ultimosJogos, #classificacao, #videos, #social, #ligacaoExterna, .rodape{
+  box-shadow: 2px 2px 5px black;
+  margin: 5px 1px 1px;
+  padding: 2px;
+  background: rgba(34, 163, 223, .8);
+  border-radius: 2%;
+} 
   
-  
-  
-  /* ***** PRIMEIRO BREAKPOINT ***** */
     
-  /* CABEÇALHO */
+/* CABEÇALHO */ 
+#main .mainHeader{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
   
-  #main .mainHeader{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
+#main .mainHeader p{
+  text-align: center;
+  align-self: center;
+}
   
-  #main .mainHeader p{
-    text-align: center;
-    align-self: center;
-  }
+#main .mainHeader .menu-img{width: 50px}
   
-  #main .mainHeader .menu-img{width: 50px}
+#main .mainHeader .logo-img{
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  padding: 2px;
+}
   
-  #main .mainHeader .logo-img{
-    width: 60px;
-    height: 60px;
-    margin: 2px;
-    padding: 2px;
-  }
+nav{
+  background-color:rgb(34, 163, 223);
+  top: 87px;
+  right: 1px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: 2s all;
+  z-index: 3;
+  display: none;
+  flex-direction: column;
+}
   
-  nav{
-    background-color:rgb(34, 163, 223);
-    top: 90px;
-    right: 1px;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    transition: 2s all;
-    z-index: 3;
-    display: none;
-    flex-direction: column;
-  }
-  
-  nav ul{
+nav ul{    
+  display: block;
+  position: fixed;
+  transition: 1s all;
+  z-index: 3;
+  background-color:rgb(34, 163, 223);
     
-    display: block;
-    position: fixed;
-    transition: 1s all;
-    z-index: 3;
-    background-color:rgb(34, 163, 223);
-    
-  }
-  nav ul li{
-    margin: 20px;
-    border-bottom: white 1px solid;
-    height: 100%;
-    padding: 5px;
-    display: block;
-  }
+}
+nav ul li{
+  margin: 20px;
+  border-bottom: white 1px solid;
+  height: 100%;
+  padding: 5px;
+  display: block;
+}
   
-  nav ul a{
-    color: white;
-    font-weight: bold;
-    display: block;
-  }
+nav ul a{
+  color: white;
+  font-weight: bold;
+  display: block;
+}
   
-  input{display: none}
+input{display: none}  
   
-  
-  input[type="checkbox"]:checked~nav{
-    display: unset;
-    
-  }
+input[type="checkbox"]:checked~nav{
+  display: unset;  
+}
   
   /* RODAPÉ */
 .rodape{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
   
-  .rodape .fa-github{
-    font-size: 1.2rem;
-    color: black;
-  }
+.rodape .fa-github{
+  font-size: 1.2rem;
+  color: black;
+}
 
 
-  @media screen and (min-width: 600px){
+@media screen and (min-width: 600px){
 
-      /* CABEÇALHO */
+  /* CABEÇALHO */
   #header h1{
     font-size: 1.3rem;
   }
@@ -135,6 +127,10 @@ body{
     padding: 2px;
   }
 
+  nav{
+    top: 117px;
+  }
+
   /* RODAPÉ */
   .rodape{
     display: flex;
@@ -146,15 +142,11 @@ body{
     margin-right: 10px;
   }
 
-  nav{
-    top: 1px;
-  }
+}
 
-  }
+@media screen and (min-width: 750px){
 
-  @media screen and (min-width: 750px){
-
-     /* CABEÇALHO */
+  /* CABEÇALHO */
   .mainHeader{
     grid-area: header;
   }
@@ -168,7 +160,6 @@ body{
     justify-content: space-between;
     align-items: center;
   }
-
 
   nav{
     background: unset;
@@ -187,7 +178,6 @@ body{
     position: unset;
     transition: unset;
     background-color:unset;
-   
   }
   nav ul li{
     margin-bottom: unset;
@@ -204,7 +194,7 @@ body{
     display: none;
   }
 
-/* MENU */
+  /* MENU */
   #main nav{
     display: unset;
   }
@@ -241,8 +231,9 @@ body{
     font-weight: bold;
   }
 
+}
+
 @media screen and (min-width: 1200px){
-/* CABEÇALHO */
 
   #main .mainHeader .logo-img{
     width: 120px;
@@ -250,7 +241,6 @@ body{
     margin: 2px;
     padding: 2px;
   }
-    
-}
 
 }
+
