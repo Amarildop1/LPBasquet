@@ -99,9 +99,9 @@ nav ul a{
   display: block;
 }
   
-input{display: none}  
+header input{display: none}  
   
-input[type="checkbox"]:checked~nav{
+header input[type="checkbox"]:checked~nav{
   display: unset;  
 }
   
@@ -205,7 +205,7 @@ input[type="checkbox"]:checked~nav{
     color: black;
     font-weight: bold;
   }
-  input{
+  header input{
     display: none;
   }
 
