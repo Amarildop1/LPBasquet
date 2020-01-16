@@ -8,79 +8,65 @@
   Desenvolvimento de um site para a Liga Pessoense de Basquete.
 */
 
-
-#main .mainHeader,  .rodape{
-  box-shadow: 2px 2px 5px black;
-  margin: 5px 1px 1px;
-  padding: 2px;
-  background: rgba(34, 163, 223, .8);
-  border-radius: 2%;
-} 
-
+/* ***** CONFIG GERAL ***** */
 body{
   background-image: none;
 }
 
+h1{
+  text-align: center;
+  font-size: 1.5rem;
+}
 
+/* TABELA */
 table{
   box-shadow: 2px 2px 5px black;
   border: 1px solid black;
   border-collapse: collapse;
- width:100%;
- font-size: 90%;
-}
+  width:96%;
+  font-size: 90%;
+  margin: 0 auto;
 
-table td{
-border: 1px solid black;
-text-align: center;
 }
 
 table th{
   padding: 10px;
+  text-align: center;
   border: 1px solid black;
-  background: #99cc33;
+  background: rgba(34, 163, 223);
+}
+
+table td{
+  border: 1px solid black;
   text-align: center;
 }
 
-tr:nth-child(3){
-  background: rgba(153, 204, 51, 0.4);
-}
-
-tr:nth-child(5){
-  background: rgba(153, 204, 51, 0.4);
+tr:nth-child(2n){
+  background: rgba(151, 156, 140, 0.3);
 }
 
 .nao-mobile{
   display: none;
 }
+/* ***** FIM DA CONFIG GERAL ***** */
 
 
 @media screen and (min-width:768px){
-
   .mobile{
     display: none;
   }
-
   .nao-mobile{
     display: unset;
   }
-
 }
 
 
 @media screen and (min-width: 1200px){
-
-
-  h1{
-    text-align: center;
-  }
-
   .x{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
 }
 
