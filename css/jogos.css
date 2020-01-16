@@ -23,9 +23,9 @@ table{
   box-shadow: 2px 2px 5px black;
   border: 1px solid black;
   border-collapse: collapse;
-  width:96%;
+  width:86%;
   font-size: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
 
 }
 
@@ -43,6 +43,11 @@ table td{
 
 tr:nth-child(2n){
   background: rgba(151, 156, 140, 0.3);
+}
+
+table tr:hover{
+  background: rgba(34, 163, 223, 0.3);
+  font-weight: bold;
 }
 
 .nao-mobile{
