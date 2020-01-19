@@ -1,5 +1,5 @@
-@import url("/css/menu.css");
-@import url("/css/footer.css");
+@import url("menu.css");
+@import url("footer.css");
 
 /* ***** CONFIG GERAL ***** */
 body{
