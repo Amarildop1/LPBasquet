@@ -15,13 +15,34 @@
             body{
                 background-image: url(esperando.jpg);
             }
+            h1, h2, p{
+                text-align: center;
+            }
+            a{
+                color: black;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+            a:hover{
+                color: blue;
+                text-decoration: underline;
+            }
+            p::before{
+                content: ">> ";
+            }
+            p::after{
+                content: " <<";
+            }
         </style>
-     </head>
+    </head>
     <body>
-        <h1 style="text-align: center;">Liga Pessoense de Basquete</h1>
-        <h2 style="text-align: center;">Página em construção ...</h2>
+        <h1>Liga Pessoense de Basquete</h1>
+        <h2>Página em construção ...</h2>
+        <a href="index1.html">
+            <p>Clique aqui para voltar ao site.</p>
+        </a>
         <marquee>
-            <h2> .......... Aguarde! .......... </h2>
+            <h3> .......... Aguarde! .......... </h3>
             
         </marquee>
 
