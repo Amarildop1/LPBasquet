@@ -6,6 +6,8 @@
 
 Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disciplina de Linguagem de Marcação.
 
+* Site desenvolvido em estilo Mobile-First!
+
 ### Requisitos e funcionalidades:
 
 1. Layout simples
@@ -22,18 +24,28 @@ Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disc
 ### Inspiração:
 
 #### NBB
-
 Liga Nacional de Basquete
 * https://lnb.com.br/
 
 
 ### Considerações
 
-* A página está responsiva.
-* Todos os links levam para alguma página.
-* O formulário que se encontra na página "sobre a liga" não trata os dados enviados e não possui destino para o submit. 	* Ele tem campos de preenchimento obrigatório.
+1. A página está responsiva.
+2. Todos os links levam para alguma página.
 
-* A Página de fotos está dividida pelos meses do ano corrente. Cada mês é uma galeria de imagens dos jogos.
+3. "Página Jogos" 
+	* Apresenta a tabela de jogos completa. 
+	* Os próximos jogos aparecem no topo da tabela, seguida dos jogos já realizados. 
+	* Esta tabela possui data, horário e local de cada jogo.
+
+4. "Página Fotos"
+	* A Página de fotos está dividida pelos meses do ano corrente. 
+	* Cada mês é uma galeria de imagens dos jogos.
+
+5. "Página Sobre a Liga"
+	* Tem uma breve descrição e histórico da liga.
+	* O mapa está apontando para a principal sede dos jogos.
+	* O formulário não trata os dados enviados e não possui destino para o submit. Mas, ele tem campos de preenchimento obrigatório.
 
 
 ### Contato
