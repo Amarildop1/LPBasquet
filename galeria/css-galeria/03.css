@@ -35,7 +35,7 @@ body{
   width: 18em;
   height: 15em;
   margin: 4% auto;
-  animation: slideMarco 20s infinite;
+  animation: slideMarco 30s infinite;
   animation-direction: alternate;
 }
 /* ***** FIM DA CONFIG GERAL ***** */
@@ -104,31 +104,31 @@ body{
 
 /* ***** ANIMAÇÃO - SLIDE ***** */
 @keyframes slideMarco{
-  0%, 20%{
+  0%, 10%{
     background-image: url(../03/foto11.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-  22%, 45%{
+  20%, 30%{
     background-image: url(../03/foto12.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-  47%, 60%{
+  40%, 50%{
     background-image: url(../03/foto13.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-  63%, 83%{
+  60%, 70%{
     background-image: url(../03/foto14.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-  85%, 100%{
+  80%, 90%{
     background-image: url(../03/foto15.jpg);
     background-repeat: no-repeat;
     background-size: contain;
