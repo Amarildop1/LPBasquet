@@ -6,7 +6,6 @@
 
 Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disciplina de Linguagem de Marcação.
 
-* Site desenvolvido em estilo Mobile-First!
 
 ### Requisitos e funcionalidades:
 
@@ -30,6 +29,7 @@ Liga Nacional de Basquete
 
 ### Considerações
 
+0. Mobile-First Design!
 1. A página está responsiva.
 2. Todos os links levam para alguma página.
 
