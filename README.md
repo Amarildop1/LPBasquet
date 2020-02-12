@@ -11,10 +11,10 @@ Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disc
 1. Layout simples
 2. Menu com 5 (cinco) itens de navegação.
 3. A página inicial terá as seguintes seções.
-	* Próximos Jogos
-	* Placar dos últimos jogos
+	* Próximo Jogo
+	* Placar do último jogo
 	* Videos
-	* Classificação da fase inicial
+	* Classificação
 	* Redes sociais
 	* Links externos
 
@@ -24,6 +24,28 @@ Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disc
 
 Liga Nacional de Basquete
 * https://lnb.com.br/
+
+
+### Considerações
+
+0. Mobile-First Design!
+1. A página está responsiva.
+2. Todos os links levam para alguma página.
+
+3. "Página Jogos" 
+	* Apresenta a tabela de jogos completa. 
+	* Os próximos jogos aparecem no topo da tabela, seguida dos jogos já realizados. 
+	* Esta tabela possui data, horário e local de cada jogo.
+
+4. "Página Fotos"
+	* A Página de fotos está dividida pelos meses do ano corrente. 
+	* Cada mês é uma galeria de imagens dos jogos.
+
+5. "Página Sobre a Liga"
+	* Tem uma breve descrição e histórico da liga.
+	* O mapa está apontando para a principal sede dos jogos.
+	* O formulário não trata os dados enviados e não possui destino para o submit. Mas, ele tem campos de preenchimento obrigatório.
+
 
 
 ### Contato
