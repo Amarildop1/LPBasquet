@@ -29,7 +29,7 @@ Liga Nacional de Basquete
 ### Considerações
 
 0. Mobile-First Design!
-1. A página está responsiva.
+1. Páginas responsivas.
 2. Todos os links levam para alguma página.
 
 3. "Página Jogos" 
