@@ -1,7 +1,7 @@
 @import url("menu.css");
 @import url("footer.css");
 
-/* FALTA REVISAR - TALVEZ POSSUA LINHAS INÚTEIS*/
+/*  REVISAR  */
 
 
 /* CONFIG GERAL */
@@ -180,13 +180,7 @@ h2{
   .sobre .imagem img{
     width: 30rem;
   }  
-/*
-  #sobre{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-*/  
+
 }   
 /* ***** FIM SEGUNDO BREAKPOINT ***** */
 
@@ -215,7 +209,5 @@ h2{
     width: 6rem;
     height: 2.1rem;
   }
-
-
 }
 /* ***** FIM TERCEIRO BREAKPOINT ***** */

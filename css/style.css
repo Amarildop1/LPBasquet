@@ -117,7 +117,6 @@ ul{list-style-type: none}
 
 /* ***** PRIMEIRO BREAKPOINT ***** */
 @media screen and (min-width: 600px){
-
   
   /* SEÇÃO PRÓXIMOS JOGOS */
   .proxJogos img{width: 200px;}
@@ -163,7 +162,6 @@ ul{list-style-type: none}
 /* ***** SEGUNDO BREAKPOINT ***** */
 @media screen and (min-width: 750px){
  
-
 /* SEÇÃO PRÓXIMOS JOGOS */
   #proximosJogos{
     grid-area: proximosJogos;  
@@ -187,7 +185,6 @@ ul{list-style-type: none}
   }
 
 /* SEÇÃO CLASSIFICAÇÃO */
-
   #classificacao .classifGeral{
     line-height: 2rem;
   }
@@ -258,12 +255,10 @@ ul{list-style-type: none}
 /* ***** TERCEIRO BREAKPOINT ***** */
 @media screen and (min-width: 1200px){
 
-  /* CABEÇALHO */
   .mainHeader{
     grid-area: header;
   }
-  
-  
+    
   #proximosJogos{
     grid-area: proximosJogos;  
   }
@@ -327,4 +322,3 @@ ul{list-style-type: none}
 }
 
 /* ***** FIM DO TERCEIRO BREAKPOINT ***** */
-
