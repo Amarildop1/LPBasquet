@@ -1,4 +1,7 @@
 @import url("menu.css");
+
+/*	 Limpar código e verificar redundâncias 	*/
+
 /*
   Projeto Final de LM - 2019.2
   Equipe:
@@ -246,7 +249,6 @@ ul{list-style-type: none}
                          "ligacaoExterna ligacaoExterna"
                          "rodape rodape"
   }
-
 }
 /* ***** FIM DO SEGUNDO BREAKPOINT ***** */
 
@@ -318,7 +320,5 @@ ul{list-style-type: none}
                          "ligacaoExterna ligacaoExterna ligacaoExterna"
                          "rodape rodape rodape"
   }
-
 }
-
 /* ***** FIM DO TERCEIRO BREAKPOINT ***** */
