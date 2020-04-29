@@ -6,6 +6,9 @@
 
 Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disciplina de Linguagem de Marcação.
 
+- Permitido utilizar somente HTML5 e CSS3 em todo o site.
+
+
 ### Requisitos e funcionalidades:
 
 1. Layout simples
