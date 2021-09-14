@@ -1,6 +1,6 @@
 ## Projeto de LM
 
-## Liga Pessoense de Basquetebol
+### Liga Pessoense de Basquetebol
 
 ### Descrição do Projeto:
 
