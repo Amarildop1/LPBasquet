@@ -1,13 +1,13 @@
 ## Projeto de Linguagem de Marcação
 
 ### Liga Pessoense de Basquetebol 
-	##### (página fictícia, não oficial)
+ (página fictícia, não oficial)
 
 ### Descrição do Projeto:
 
 Site da Liga Pessoense de Basquetebol. Desenvolvido para fins didáticos da disciplina de Linguagem de Marcação.
 
-- Permitido utilizar somente HTML5 e CSS3 em todo o site.
+	- Permitido utilizar somente HTML5 e CSS3 em todo o site.
 
 
 ### Requisitos e funcionalidades:
