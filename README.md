@@ -1,6 +1,6 @@
-## Projeto de LM
+## Projeto de Linguagem de Marcação
 
-### Liga Pessoense de Basquetebol
+### Liga Pessoense de Basquetebol -- (página fictícia, não oficial)
 
 ### Descrição do Projeto:
 
